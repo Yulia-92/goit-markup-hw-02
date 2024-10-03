@@ -29,17 +29,16 @@ ul {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
 .header-list-cont{
     font-style: normal;
     color: #2E2F42;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.02em;
-    text-transform: #434455;    
+    letter-spacing: 0.02em;  
 }
 .content{
     background-color: #2E2F42;
-   
 }
 h1{
     font-weight: 700;
