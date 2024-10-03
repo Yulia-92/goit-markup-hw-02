@@ -10,11 +10,11 @@ a {
 ul {
     list-style-type: none;
 }
-.header-menu{
-   color:#2E2F42;
+.header-nav {
+    color:#2E2F42;
 }
-.header-menu .link:hover,
-.header-menu .link:focus{
+.header-nav .link:hover,
+.header-nav .link:focus{
     color: #404bbf;
 }
 .header-logo {
@@ -25,40 +25,46 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    } 
-.text-studio{
+}
+.header-text-logo {
     color: #2e2f42;
-}    
-.header-menu-list{
+}
+.menu-list {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-cont-list{
+.menu-list .link:hover,
+.menu-list .link:focus{
+    color: #404bbf;
+}
+.menu-contact{
     font-style: normal;
-    color: #434455;
+}
+.menu-contact-list {
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.02em;  
+    letter-spacing: 0.02em;
+    color: #434455;
 }
-.header-cont-list .link:hover,
-.header-cont-list .link:focus{
-    color: #404bbf; 
+.menu-contact-list .link:hover,
+.menu-contact-list .link:focus{
+    color: #404bbf;
 }
-.content{
-    background-color: #2E2F42;
+.content {
+    background: #2E2F42;
 }
-.content-list{
+.content-list {
+    font-family: var(--font-family);
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    text-align: center;
 }
-.btn-content{
+.btn-content {
     font-family: "Roboto",sans-serif;
     background: #4d5ae5;
     font-weight: 500;
@@ -72,35 +78,66 @@ ul {
 .btn-content .link:focus{
     background-color: #404bbf;
 }
-.content_2-list-h3{
+.feature-list {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.content_2-list-p{
+.feature-item {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.content-team{
+.card-content{
     background: #F4F4FD;
 }
-h2{
-    font-family: var(--font-family);
+.subtitle-content {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-    text-align: center;
+    color: #2E2F42;
+}
+.card-content-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.card-content-item {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-.footer-menu{
+.subtitle-project {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.card-row-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.card-row-item {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.footer-menu {
     background: #2E2F42;
 }
-.footer-logo{
+.footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -109,13 +146,18 @@ h2{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.footer-text-studio{
-    color: #F4F4FD
-    ;
+.foter-text-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 }
-.footer-item{
+.footer-item {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #F4F4FD; 
+    color: #F4F4FD;
 }
