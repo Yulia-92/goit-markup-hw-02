@@ -42,6 +42,7 @@ ul {
 }
 .menu-contact{
     font-style: normal;
+    color: #2E2F42;
 }
 .menu-contact-list {
     font-size: 16px;
@@ -62,6 +63,7 @@ ul {
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
 }
 .btn-content {
@@ -99,6 +101,8 @@ ul {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 .card-content-list {
@@ -120,6 +124,11 @@ ul {
     line-height: 111%;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    text-transform: capitalize;
+}
+.project-list{
+    background-color: #FFFFFF;
 }
 .card-row-list {
     font-weight: 500;
