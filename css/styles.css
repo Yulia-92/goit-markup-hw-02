@@ -1,12 +1,21 @@
 body {
     font-family:"Roboto", sans-serif;
     text-decoration: none;
+    color:#434455;
+    background-color: #FFFFFF;
 }
 a {
     text-decoration: none;
 }
 ul {
     list-style-type: none;
+}
+.header-menu{
+   color:#2E2F42;
+}
+.header-menu .link:hover,
+.header-menu .link:focus{
+    color: #404bbf;
 }
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -15,13 +24,11 @@ ul {
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    } 
-.text-web {
     color: #4d5ae5;
+    } 
+.text-studio{
+    color: #2e2f42;
 }    
-.text-studio {
-    color: #2E2F42;
-}
 .header-menu-list{
     font-weight: 500;
     font-size: 16px;
@@ -29,18 +36,21 @@ ul {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
-.header-list-cont{
+.header-cont-list{
     font-style: normal;
-    color: #2E2F42;
+    color: #434455;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;  
 }
+.header-cont-list .link:hover,
+.header-cont-list .link:focus{
+    color: #404bbf; 
+}
 .content{
     background-color: #2E2F42;
 }
-h1{
+.content-list{
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -49,22 +59,27 @@ h1{
     text-align: center;
 }
 .btn-content{
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Roboto",sans-serif;
     background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     cursor: pointer;
 }
-h3{
+.btn-content .link:hover,
+.btn-content .link:focus{
+    background-color: #404bbf;
+}
+.content_2-list-h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-p{
+.content_2-list-p{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -79,8 +94,8 @@ h2{
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
-     text-align: center;
-     color: #434455;
+    text-align: center;
+    color: #434455;
 }
 .footer-menu{
     background: #2E2F42;
@@ -92,6 +107,11 @@ h2{
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-text-studio{
+    color: #F4F4FD
+    ;
 }
 .footer-item{
     font-size: 16px;
