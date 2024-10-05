@@ -32,7 +32,7 @@ ul {
     text-transform: uppercase;
     color: #2e2f42;
 }
-.menu-list {
+.header-menu-list {
     margin-right: 40px;
     margin-top: 0;
     font-weight: 500;
@@ -41,15 +41,9 @@ ul {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.menu-list:hover{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #404bbf;
-}
-.menu-list:focus,
-.menu-list:active{
+.header-menu-list:hover,
+.header-menu-list:focus,
+.header-menu-list:active{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
